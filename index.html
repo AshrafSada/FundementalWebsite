@@ -4,35 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=5.0, minimum-scale=0.86">
     <title>Fundamental Website</title>
+    <link rel="shortcut icon" href="assets/images/brand_logo.webp" type="icon">
     <link rel="stylesheet" href="assets/css/layout.css">
 </head>
 
 <body>
-    <header>
-        <nav class="nav_top" role="navigation">
-            <div class="brand_logo">
-                <a href="index.html">
-                    <img src="" alt="_brand_logo">
-                    My App
-                </a>
+    <div class="main_container">
+        <header class="header">
+            <img src="assets/images/brand_logo.webp" alt="Domain Name" class="brand_logo">
+            <nav class="nav_top_menu">
+                <a href="" class="nav_menu_link">Home</a>
+                <a href="" class="nav_menu_link">Products</a>
+                <a href="" class="nav_menu_link">About</a>
+                <a href="" class="nav_menu_link">Contact</a>
+            </nav>
+        </header>
+        <main class="main_content">
+            <div class="hero_section">
+                <h2 class="hero_caption">Welcome to this website</h2>
+                <video autoplay loop muted class="video_bg">
+                    <source src="assets/videos/dsbv_1080p.mp4" type="video/mp4">
+                </video>
             </div>
-            <ul class="nav_menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#product">Products/Services</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-<main>
-    <article>
-        <section>
-           <h3>Hello</h2>
-        </section>
-    </article>
-</main>
+            <section class="intro">
+                <div class="grid_cols">
+                    <div class="col">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi culpa autem provident iste
+                            est
+                            voluptate sit sint aspernatur, voluptates ducimus saepe reprehenderit deserunt, temporibus
+                            odit
+                            sunt veritatis exercitationem tempora odio.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p>
+                Copyright &copy; 2022
+            </p>
+        </footer>
+    </div>
 </body>
 
 </html>
